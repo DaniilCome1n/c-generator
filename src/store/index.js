@@ -5,13 +5,13 @@ import sidebar from '@/store/modules/sidebar';
 Vue.use(Vuex);
 
 export default new Vuex.Store({
-  state: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
-  modules: {
-    sidebar,
-  },
+	state: {
+	},
+	mutations: {
+	},
+	actions: {
+	},
+	modules: {
+		sidebar,
+	},
 });
