@@ -1,16 +1,22 @@
-import Vue from 'vue';
-import Vuex from 'vuex';
-
-Vue.use(Vuex);
-
-export default new Vuex.Store({
+export default {
 	state: {
-		navItems: [],
+		navItems: [
+			{
+				icon: 'mdi-home',
+				path: '/',
+				title: 'Главная',
+			},
+			{
+				icon: 'mdi-plus',
+				path: '/create-layout',
+				title: 'Создать креатив',
+			},
+		],
 	},
-	mutations: {
+	mutations: {},
+	getters: {
+		navItems: (state) => state.navItems,
 	},
-	actions: {
-	},
-	modules: {
-	},
-});
+	actions: {},
+	modules: {},
+};

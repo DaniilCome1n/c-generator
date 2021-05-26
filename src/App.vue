@@ -5,13 +5,6 @@
 			<router-view></router-view>
 		</v-container>
 	</v-app>
-	<!--  <div id="app">-->
-	<!--    <div id="nav">-->
-	<!--      <router-link to="/">Главная</router-link>-->
-	<!--      <router-link to="/create-layout">Создать креатив</router-link>-->
-	<!--    </div>-->
-	<!--    <router-view/>-->
-	<!--  </div>-->
 </template>
 
 <script>
