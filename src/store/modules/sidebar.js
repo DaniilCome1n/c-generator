@@ -8,7 +8,7 @@ export default {
 			},
 			{
 				icon: 'mdi-plus',
-				path: '/create-layout',
+				path: '/create',
 				title: 'Создать креатив',
 			},
 		],

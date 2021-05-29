@@ -1,9 +1,11 @@
 <template>
 	<v-app>
 		<sideBar/>
-		<v-container fluid>
-			<router-view></router-view>
-		</v-container>
+		<v-main>
+			<v-container fluid fill-height>
+				<router-view></router-view>
+			</v-container>
+		</v-main>
 	</v-app>
 </template>
 

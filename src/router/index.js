@@ -10,9 +10,14 @@ const routes = [
 		component: () => import('../views/main-layout.vue'),
 	},
 	{
-		path: '/create-layout',
+		path: '/create',
 		name: 'create-layout',
 		component: () => import('../views/create-layout.vue'),
+	},
+	{
+		path: '/create/:slideIndex',
+		name: 'slide-layout',
+		component: () => import('../views/slide-layout.vue'),
 	},
 ];
 

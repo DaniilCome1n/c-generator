@@ -1,5 +1,5 @@
 <template>
-	<v-navigation-drawer app>
+	<v-navigation-drawer app clipped>
 		<div class="d-flex justify-center align-center logo-wrapper">
 			<img :src="require('/src/assets/img/logo.png')" alt="logo">
 		</div>
