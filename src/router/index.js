@@ -13,11 +13,18 @@ const routes = [
 		path: '/create',
 		name: 'create-layout',
 		component: () => import('../views/create-layout.vue'),
-	},
-	{
-		path: '/create/:slideIndex',
-		name: 'slide-layout',
-		component: () => import('../views/slide-layout.vue'),
+		children: [
+			{
+				path: '/create/slide/:index',
+				name: 'slide-layout',
+				component: () => import('../components/slide.vue'),
+			},
+			{
+				path: '/create/common-styles',
+				name: 'slide-layout',
+				component: () => import('../components/slide.vue'),
+			},
+		],
 	},
 ];
 
