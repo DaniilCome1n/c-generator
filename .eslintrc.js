@@ -13,6 +13,7 @@ module.exports = {
 	rules: {
   	'no-tabs': 0,
 		'indent': [2, 'tab'],
+		"no-mixed-spaces-and-tabs": [2, "smart-tabs"],
 		'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
 		'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
 	},

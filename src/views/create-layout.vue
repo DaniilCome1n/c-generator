@@ -3,7 +3,7 @@
 		<div class="heading-wrapper">
 			<h2>Создание креатива</h2>
 		</div>
-		<v-btn color="primary">Задать общие стили</v-btn>
+		<v-btn color="primary" @click="$router.push('/create/common-styles')">Задать общие стили</v-btn>
 		<slideWrapper/>
 	</v-container>
 </template>

@@ -22,7 +22,7 @@ export default {
 		...mapMutations(['addSlide']),
 		addNewSlide() {
 			const slide = {
-				index: this.currentIndex + 1,
+				index: +this.currentIndex + 1,
 				isEmpty: true,
 			};
 			this.addSlide(slide);

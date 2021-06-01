@@ -1,6 +1,6 @@
 <template>
 	<div class="slide-cards-wrapper">
-		<slideCard v-for="slide in slides" :key="slide.index" :index="slide.index" />
+		<slideCard v-for="slide in slides" :key="slide.index" :index="slide.index" type="add"/>
 	</div>
 </template>
 
